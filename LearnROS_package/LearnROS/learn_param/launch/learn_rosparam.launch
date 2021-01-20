@@ -1,0 +1,8 @@
+<launch>
+
+    <param name="a_string" value="global_value_by_launch" />
+    <node pkg="learn_param" type="learn_param_cpp_node" name="node_name" ns="namespace" output="screen">
+        <param name="a_string" value="local_value_by_launch" />
+    </node>
+
+</launch>
